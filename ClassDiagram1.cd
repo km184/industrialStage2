@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="KlevelBrowser.Program">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Controller\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.Controller.WebBrowserController">
+    <Position X="6.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAACDAAAAAAAAIxAAAAQAAAAEsYgAAkABBAAACAAA=</HashCode>
+      <FileName>Controller\WebBrowserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.Model.Browser">
+    <Position X="6" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAoAAAAAgBAAKAAAIA=</HashCode>
+      <FileName>Model\Browser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.Model.HistoryLinkedList">
+    <Position X="1.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAAQAAAgAAABAAAAAgCAgAAAAAAEAAAAgA=</HashCode>
+      <FileName>Model\HistoryLinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Favourites">
+    <Position X="0.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Model\Favourites1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.HistoryHashTable">
+    <Position X="3.75" Y="4.75" Width="2" />
+    <InheritanceLine Type="KlevelBrowser.Model.HistoryLinkedList" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="3.786" />
+        <Point X="2.75" Y="4.383" />
+        <Point X="3.42" Y="4.383" />
+        <Point X="3.42" Y="5.375" />
+        <Point X="3.75" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\HistoryHashTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.View.favourites">
+    <Position X="9.5" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAACAAACAAAACAAgkAAACAAAAQAAAAAA=</HashCode>
+      <FileName>View\favourites.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.View.MainPage">
+    <Position X="13.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAIAAAAASAAAASAAAIAAAAEGAAAABAAAI=</HashCode>
+      <FileName>View\MainPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.View.viewHistory">
+    <Position X="13.5" Y="5.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAACAAAEAAABiAAAAKAAAAAAACAAgAAAAAAAA=</HashCode>
+      <FileName>View\viewHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KlevelBrowser.View.ViewHTML">
+    <Position X="10.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAACCAAABAAABCACAACAMQ7AAACkHAfAAAAAgA=</HashCode>
+      <FileName>View\ViewHTML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
